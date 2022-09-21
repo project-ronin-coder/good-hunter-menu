@@ -1,0 +1,41 @@
+@font-face {
+  font-family: GenshinFont;
+  src: url(ja-jp.ttf);
+}
+body{
+  background-image: url("/images/goodhunter.jpg");
+  background-size: cover;
+  font-family: GenshinFont;
+  color: white;
+}
+
+header{
+  text-align: center;
+  background-color: #ECE5D8;
+  padding: 10px;
+  color: #3B4255;
+}
+
+header h1{
+  margin-top: 0;
+}
+
+header p {
+  margin-bottom: 0;
+}
+
+.menu{
+  background-color: #2B3542;
+  width: 80%;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.header-line{
+  background-color: #ECE5D8;
+  height: 2px;
+  border-color: #ECE5D8;
+}
+
