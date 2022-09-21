@@ -93,3 +93,14 @@ a:hover {
 a:active {
   color: #3B4255;
 }
+
+/* Selectors */
+h2:hover {
+  color: #48729C;
+  cursor: pointer;
+}
+
+h1:hover {
+  color: #48729C;
+  cursor: pointer;
+}
