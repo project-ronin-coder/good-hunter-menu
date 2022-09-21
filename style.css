@@ -9,23 +9,21 @@ body{
   color: white;
 }
 
-header, section{
+header, section, footer{
   text-align: center;
   background-color: #ECE5D8;
   padding: 10px;
   color: #3B4255;
 }
 
-header h1{
-  margin-top: 0;
-}
-
-header p {
-  margin-bottom: 0;
+header h1 {
+  margin-bottom: 10px;
+  font-size: 40px;
 }
 
 h1, h2, p {
   text-align: center;
+  margin-top: 0;
 }
 
 img{
@@ -39,10 +37,7 @@ img{
 
 section h2{
   margin-top: 0;
-}
-
-section p{
-  margin-bottom: 0;
+  font-size: 30px;
 }
 
 .menu{
@@ -75,4 +70,26 @@ section p{
 .price{
   text-align: right;
   width: 25%;
+}
+
+/* Footer */
+
+footer{
+  font-size: 14px;
+}
+
+.last-statement{
+  margin-bottom: 5px;
+}
+
+a:visited {
+  color: #3B4255;
+}
+
+a:hover {
+  color: #48729C;
+}
+
+a:active {
+  color: #3B4255;
 }
